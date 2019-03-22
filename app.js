@@ -158,7 +158,7 @@ function game(usrChoice)
 //----------------------------------------------------
 rock.onclick = function () {
     var gameResult = game("rock");
-    console.log("rock");
+    // console.log("rock");
     // console.log(compChoice);
     // compareChoices("rock", compChoice);
     result_.firstElementChild.textContent = gameResult;
